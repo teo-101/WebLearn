@@ -1,0 +1,53 @@
+.definition {
+overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  transition: all 1s ease-in-out;
+  background-color: #FB8500;
+}
+
+.defContainer {
+  width: 50%;
+  height: 300px;
+  font-size: 4rem;
+  transform: skewX(20deg);
+}
+
+.defTitle {
+  transform: skewX(-20deg);
+  text-align: center;
+  line-height: 300px;
+}
+
+.defImg {
+  width: 50%;
+  height: 300px;
+  transform: skewX(20deg);
+  background-size: cover;
+  transition: all 1s ease-in-out;
+  background-image: url('../src/2e503dab8d1d2088929137.webp');
+}
+
+.defText {
+  position: absolute;
+  font-size: 30px;
+  text-indent: 30px;
+  right: -100%;
+  width: 50%;
+  height: 300px;
+  transition: all 1s ease-in-out;
+  transform: translateX(100%);
+}
+
+.definition:hover > .defImg {
+  transform: translateX(100%);
+}
+
+.definition:hover > .defText {
+  transform: translateX(-200%);
+}
+
+.definition:hover > .defContainer {
+    left:-10%;
+}

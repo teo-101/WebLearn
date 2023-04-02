@@ -41,6 +41,15 @@
     height: fit-content;
     max-width: 25rem;
     max-height: 25rem;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
 .verticalTitle {
@@ -58,6 +67,11 @@
     transition: all .5s ease-in-out;
     z-index: 1;
     cursor: default;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .pageContent:hover > .verticalTitle {
@@ -100,6 +114,15 @@
     opacity: 0;
     z-index: 999;
     transition: all 1s ease-in-out;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
 .BLUR {
@@ -111,4 +134,21 @@
     backdrop-filter: blur(3px);
     z-index: -1;
     transition: all 1s ease-in-out;
+}
+
+#logo {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 27rem;
+    width: 64px;
+    height: 64px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
